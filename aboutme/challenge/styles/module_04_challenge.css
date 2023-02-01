@@ -1,0 +1,28 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: pink;
+}
+header {
+    font-size: 8em;
+    font-weight: bold;
+    color: white;
+}
+p {
+    color: white;
+}
+div {
+    font-size: 1.50em;
+    color: white;
+    font-weight: bold;
+}
+li {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#picture {
+    width: 10px;
+}
+h1 {
+    width:fit-content;
+}
