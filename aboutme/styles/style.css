@@ -2,14 +2,17 @@ body{
     padding: 10px;
     background-color: lavender;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
 }
 nav {
     background-color: steelblue;
     padding: 10px;
+    padding: 25px;
 }
 a {
     color: white;
     margin: 40px;
+    padding: 25px;
 }
 h1 {
     color: steelblue;
@@ -36,6 +39,7 @@ a {
 }
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 nav, footer {
     text-align: center;
@@ -58,6 +62,7 @@ nav {
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
 a:hover {
     background-color: white;

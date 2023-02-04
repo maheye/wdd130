@@ -1,0 +1,25 @@
+body {
+    width: auto;
+    background-color: gray;
+    margin: 0;
+}
+#circle-img {
+    width: 100%;
+}
+#three-circle{
+    margin: 75px 150px;
+    display: flex; 
+    justify-content: space-between;
+}
+.three-img {
+    display: block;
+    size: 200em;
+    box-sizing: border-box;
+    width: 25px;
+    border-radius: 50%;
+    border: 15px solid darkgrey;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
