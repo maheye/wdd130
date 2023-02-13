@@ -1,0 +1,8 @@
+body{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+img{
+    grid-column-start: 1/2;
+    grid-column-end: 1/2;
+}
