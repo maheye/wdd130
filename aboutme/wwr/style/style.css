@@ -37,6 +37,8 @@ header {
     background-color: #F8F9FA;
     display: grid;
     grid-template-columns: 150px auto;
+    display: grid;
+    grid-template-columns: 150px auto
 }
 nav {
     display: flex;
@@ -154,9 +156,10 @@ footer p a:hover {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.car-img:hover {
+.card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+     
 }
 .mountains {
     width: 100%;
