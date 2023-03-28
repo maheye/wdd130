@@ -96,3 +96,30 @@ footer p {
     font-size: 1.2em;
     text-align: center;
 }
+
+.aboutmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+main div {
+    padding: 1px 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    grid-column: 1/6;
+    color: #ffffff;
+    font-size: 80%;
+    line-height: 1.5em;
+    text-align: start;
+}
+main div h3 {
+    text-align: center;
+}
+
+main a {
+    padding: 1px 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    grid-column-start: 6;
+}
