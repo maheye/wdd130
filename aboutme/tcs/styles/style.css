@@ -97,6 +97,9 @@ footer p {
     text-align: center;
 }
 
+.head-image {
+    margin-top: 50px;
+}
 .aboutmain {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -121,5 +124,5 @@ main a {
     margin-top: 80px;
     margin-bottom: 80px;
     border-radius: 10px;
-    grid-column-start: 6;
+    grid-column: 6/7;
 }
