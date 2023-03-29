@@ -40,10 +40,15 @@ nav a:hover {
 main {
     text-align: center;
 }
-.pictures, .words {
+.pictures {
+    margin-top: 30px;
+}
+.words {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .first-image{
     grid-column: 2/5;
@@ -98,13 +103,13 @@ footer p {
 }
 
 .head-image {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .aboutmain {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-main div {
+.first-aboutcontent {
     padding: 1px 30px;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -115,14 +120,63 @@ main div {
     line-height: 1.5em;
     text-align: start;
 }
-main div h3 {
+.first-aboutcontent h3 {
     text-align: center;
 }
 
-main a {
+.second-aboutcontent {
     padding: 1px 30px;
     margin-top: 80px;
     margin-bottom: 80px;
     border-radius: 10px;
     grid-column: 6/7;
+}
+.slideshow-container {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.service-main {
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 50px 1fr 1fr 1fr;
+    color: #ffffff;
+    margin: 50px auto;
+}
+.service-main div h4 {
+    color: #214c7b;
+    font-style: italic;
+}
+
+.first-servicecontent {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background-color: #d1c023;
+    
+}
+.second-servicecontent {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    background-color: #d1c023;
+}
+.third-servicecontent {
+    grid-column: 1/2;
+    grid-row: 5/8;
+    background-color: #d1c023;
+}
+.forth-servicecontent {
+    grid-column: 3/4;
+    grid-row: 5/8;
+    background-color: #d1c023;
+    font-size: 75%;
 }
